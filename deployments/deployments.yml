@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: kammana/myweb #kammana/nodeapp:v2
+      - image: kammana/myweb:6.0.0 #kammana/nodeapp:v2
         name: nodeapp
         ports:
         - containerPort: 8080
