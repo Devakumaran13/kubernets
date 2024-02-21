@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: thetips4you/nodeapp:latest
+      - image: f8qkynj873/website
         name: nodeapp
         ports:
         - containerPort: 8080
