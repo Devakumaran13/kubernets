@@ -21,4 +21,4 @@ spec:
       - image: gulshantk/online_app:latest
         name: nodeapp
         ports:
-        - containerPort: 8080
+        - containerPort: 80
