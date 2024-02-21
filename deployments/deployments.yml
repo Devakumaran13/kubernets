@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: kammanath/user-service:6.0
+      - image: kammana/hiring:16d047b7742eaead420efa8a0f19d57f00843c8a
         name: nodeapp
         ports:
         - containerPort: 8080
