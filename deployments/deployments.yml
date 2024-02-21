@@ -21,4 +21,4 @@ spec:
       - image: devakumaran/images:latest1
         name: nodeapp
         ports:
-        - containerPort: 80
+        - containerPort: 8080
