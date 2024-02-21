@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: f8qkynj873/website
+      - image: malginova/app:v7
         name: nodeapp
         ports:
         - containerPort: 8080
