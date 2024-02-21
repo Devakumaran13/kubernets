@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: malginova/app
+      - image: ocelotsocialnetwork/webapp:latest
         name: nodeapp
         ports:
         - containerPort: 8080
