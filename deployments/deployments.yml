@@ -18,7 +18,7 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: ocelotsocialnetwork/webapp:latest
+      - image: kammanath/user-service:6.0
         name: nodeapp
         ports:
         - containerPort: 8080
