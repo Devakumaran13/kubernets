@@ -18,7 +18,8 @@ spec:
         app: nodeapp
     spec:
       containers:
-      - image: devakumaran/images:latest1
+      #- image: devakumaran/images:latest1
+      - image: gulshantk/online_app:latest
         name: nodeapp
         ports:
         - containerPort: 8080
