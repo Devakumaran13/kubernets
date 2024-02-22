@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
      # - image: devakumaran/images:latest1
-      - image: kammana/nodeapp:v2
+     # - image: kammana/nodeapp:v2
+      - image: kammana/node-app:ef8ec721ca8f01f3152fe76068915d6c6a007d3c
         name: nodeapp
         ports:
         - containerPort: 8080
